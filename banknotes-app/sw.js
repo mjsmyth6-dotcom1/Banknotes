@@ -1,5 +1,5 @@
 // Saves the app to the iPad the first time it opens, so it keeps working with no internet.
-const CACHE = 'banknotes-v1';
+const CACHE = 'banknotes-v3';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));

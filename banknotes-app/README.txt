@@ -40,9 +40,10 @@ THE APP
 - Pinch zoom, text selection and long-press menus are turned off.
 
 UPDATING
-If the app is changed later, change CACHE = 'banknotes-v1' in sw.js to
-'banknotes-v2' (and so on) before uploading, so the iPads pick up the new
-version next time they open it online.
+If the app is changed later, increase the number in CACHE = 'banknotes-v3'
+in sw.js (to v4, v5 and so on) before uploading, so the iPads pick up the
+new version next time they open it online.
 
 Images: specimen banknote images from the Reserve Bank of Australia.
-Content adapted from banknotes.rba.gov.au.
+Content adapted from banknotes.rba.gov.au. UV light pictures are the RBA's
+own images from its Explore Banknote Features page.
